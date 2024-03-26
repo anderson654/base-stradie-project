@@ -16,8 +16,8 @@
         "vite": "^4.4.11"
     },
     "dependencies": {
-        "apexcharts": "^3.43.2-0",
-        "sass": "^1.69.3",
+        "apexcharts": "^3.43.0",
+        "sass": "^1.69.1",
         "vite-plugin-static-copy": "^0.17.0"
     }
 }

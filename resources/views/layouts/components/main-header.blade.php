@@ -64,15 +64,15 @@
 											<p class="fw-semibold text-muted mb-2 fs-13">Apps and pages</p>
 											<ul class="ps-2">
 												<li class="p-1 d-flex align-items-center text-muted mb-2 search-app">
-													<a href="javascript:void(0);"><span><i
+													<a href="{{url('calendar2')}}"><span><i
 																class='bi bi-calendar me-2 fs-14 bg-primary-transparent avatar rounded-circle '></i>Calendar</span></a>
 												</li>
 												<li class="p-1 d-flex align-items-center text-muted mb-2 search-app">
-													<a href="javascript:void(0);"><span><i
+													<a href="{{url('email-inbox')}}"><span><i
 																class='bi bi-envelope me-2 fs-14 bg-primary-transparent avatar rounded-circle'></i>Mail</span></a>
 												</li>
 												<li class="p-1 d-flex align-items-center text-muted mb-2 search-app">
-													<a href="javascript:void(0);"><span><i
+													<a href="{{url('buttons')}}"><span><i
 																class='bi bi-dice-1 me-2 fs-14 bg-primary-transparent avatar rounded-circle '></i>Buttons</span></a>
 												</li>
 											</ul>
@@ -285,14 +285,13 @@
 												<ul class="mb-0 overflow-auto" id="header-cart-items-scroll">
 													<li class="dropdown-item">
 														<div class="d-flex align-items-start cart-dropdown-item">
-															<img src="{{asset('build/assets/images/products/1.jpg')}}" alt="img"
+															<img src="{{asset('build/assets/images/products/8.jpg')}}" alt="img"
 																class="avatar avatar-md br-5 me-3">
 															<div class="flex-grow-1">
 																<div
 																	class="d-flex align-items-start justify-content-between mb-0">
 																	<div class="mb-0 fs-14 fw-semibold">
-																		<a href="javascript:void(0);" class="text-dark">SomeThing
-																			Phone</a>
+																		<a href="{{url('cart')}}" class="text-dark">White Tshirt</a>
 																	</div>
 																	<div>
 																		<span class="fs-15 mb-1">$1,299.00</span>
@@ -319,7 +318,7 @@
 																<div
 																	class="d-flex align-items-start justify-content-between mb-0">
 																	<div class="mb-0 fs-14 text-dark fw-semibold">
-																		<a href="javascript:void(0);" class="text-dark">Stop Watch</a>
+																		<a href="{{url('cart')}}" class="text-dark">Canvas Shoes</a>
 																	</div>
 																	<div>
 																		<span class="fs-15 mb-1">$179.29</span>
@@ -346,7 +345,7 @@
 																<div
 																	class="d-flex align-items-start justify-content-between mb-0">
 																	<div class="mb-0 fs-14 text-dark fw-semibold">
-																		<a href="javascript:void(0);" class="text-dark">Photo
+																		<a href="{{url('cart')}}" class="text-dark">Photo
 																			Frame</a>
 																	</div>
 																	<div>
@@ -374,8 +373,7 @@
 																<div
 																	class="d-flex align-items-start justify-content-between mb-0">
 																	<div class="mb-0 fs-14 text-dark fw-semibold">
-																		<a href="javascript:void(0);" class="text-dark">Kikon
-																			Camera</a>
+																		<a href="{{url('cart')}}" class="text-dark">Flower pot</a>
 																	</div>
 																	<div>
 																		<span class="fs-15 mb-1">$4,999.00</span>
@@ -402,8 +400,7 @@
 																<div
 																	class="d-flex align-items-start justify-content-between mb-0">
 																	<div class="mb-0 fs-14 text-dark fw-semibold">
-																		<a href="javascript:void(0);" class="text-dark">Canvas
-																			Shoes</a>
+																		<a href="{{url('cart')}}" class="text-dark">Kikon Camera</a>
 																	</div>
 																	<div>
 																		<span class="fs-15 mb-1">$129.00</span>
@@ -425,7 +422,7 @@
 												</ul>
 												<div class="p-3 empty-header-item border-top">
 													<div class="d-grid">
-														<a href="javascript:void(0);" class="btn btn-primary">Proceed to
+														<a href="{{url('checkout')}}" class="btn btn-primary">Proceed to
 															checkout</a>
 													</div>
 												</div>
@@ -435,7 +432,7 @@
 															<i class="ri-shopping-cart-2-line fs-2"></i>
 														</span>
 														<h6 class="fw-bold mb-1 mt-3">Your Cart is Empty</h6>
-														<a href="javascript:void(0);" class="btn btn-primary btn-wave btn-sm m-1"
+														<a href="{{url('shop')}}" class="btn btn-primary btn-wave btn-sm m-1"
 															data-abc="true">Back to Shop <i
 																class="bi bi-arrow-right ms-1"></i></a>
 													</div>
@@ -483,7 +480,7 @@
 																<div
 																	class="d-flex align-items-start justify-content-between">
 																	<div>
-																		<a href="javascript:void(0);"
+																		<a href="{{url('notify-list')}}"
 																			class="mb-0 fs-13 font-weight-semibold text-dark">Nile
 																			Robetz send to a HTML file for Upload</a>
 																		<div class="p-1 text-warning">
@@ -512,7 +509,7 @@
 																<div
 																	class="d-flex align-items-start justify-content-between">
 																	<div>
-																		<a href="javascript:void(0);"
+																		<a href="{{url('notify-list')}}"
 																			class="mb-0 fs-13 font-weight-semibold text-dark">Conference
 																			meeting about client project</a>
 																		<div class="p-1">
@@ -520,7 +517,7 @@
 																					class="bi bi-calendar me-1"></i>Monday -
 																				11:00 AM - 45 minutes</span>
 																		</div>
-																		<a href="javascript:void(0);"
+																		<a href="{{url('profile')}}"
 																			class="d-flex align-items-center mt-1">
 																			<span class="avatar avatar-sm brround">
 																				<img src="{{asset('build/assets/images/users/1.jpg')}}"
@@ -546,7 +543,7 @@
 															<div class="flex-grow-1">
 																<div
 																	class="d-flex align-items-start justify-content-between">
-																	<a href="javascript:void(0);"
+																	<a href="{{url('notify-list')}}"
 																		class="mb-0 fs-13 font-weight-semibold text-dark">Taylor
 																		invite to a design channel</a>
 																	<a href="javascript:void(0);"
@@ -575,7 +572,7 @@
 															<div class="flex-grow-1">
 																<div
 																	class="d-flex align-items-start justify-content-between">
-																	<a href="javascript:void(0);"
+																	<a href="{{url('notify-list')}}"
 																		class="mb-0 fs-13 font-weight-semibold text-dark">Order
 																		Placed <span class="text-primary">ID:
 																			#1116773</span></a>
@@ -597,7 +594,7 @@
 												<!-- <div class="dropdown-divider"></div> -->
 												<div class="p-3 empty-header-item1">
 													<div class="d-grid">
-														<a href="javascript:void(0);" class="btn btn-primary">View All</a>
+														<a href="{{url('notify-list')}}" class="btn btn-primary">View All</a>
 													</div>
 												</div>
 												<div class="p-5 empty-item1 d-none">
@@ -638,7 +635,7 @@
 												<div class="main-header-shortcuts py-1 px-4" id="header-shortcut-scroll">
 													<div class="row">
 														<div class="col-4 p-1 mt-0">
-															<a href="javascript:void(0);">
+															<a href="{{url('chat')}}">
 																<div class="text-center p-3 related-app border rounded-2">
 																	<span>
 																		<i
@@ -649,7 +646,7 @@
 															</a>
 														</div>
 														<div class="col-4 p-1 mt-0">
-															<a href="javascript:void(0);">
+															<a href="{{url('file-manager')}}">
 																<div class="text-center p-3 related-app border rounded-2">
 																	<span>
 																		<i
@@ -660,7 +657,7 @@
 															</a>
 														</div>
 														<div class="col-4 p-1 mt-0">
-															<a href="javascript:void(0);">
+															<a href="{{url('calendar2')}}">
 																<div class="text-center p-3 related-app border rounded-2">
 																	<span>
 																		<i
@@ -671,7 +668,7 @@
 															</a>
 														</div>
 														<div class="col-4 p-1 mt-0">
-															<a href="javascript:void(0);">
+															<a href="{{url('settings')}}">
 																<div class="text-center p-3 related-app border rounded-2">
 																	<span>
 																		<i class="mdi mdi-cog-outline text-info fs-24"></i>
@@ -681,7 +678,7 @@
 															</a>
 														</div>
 														<div class="col-4 p-1 mt-0">
-															<a href="javascript:void(0);">
+															<a href="{{url('faq')}}">
 																<div class="text-center p-3 related-app border rounded-2">
 																	<span>
 																		<i
@@ -692,7 +689,7 @@
 															</a>
 														</div>
 														<div class="col-4 p-1 mt-0">
-															<a href="javascript:void(0);">
+															<a href="{{url('profile')}}">
 																<div class="text-center p-3 related-app border rounded-2">
 																	<span>
 																		<i
@@ -703,7 +700,7 @@
 															</a>
 														</div>
 														<div class="col-4 p-1 mt-0">
-															<a href="javascript:void(0);">
+															<a href="{{url('about')}}">
 																<div class="text-center p-3 related-app border rounded-2">
 																	<span>
 																		<i class="mdi mdi-phone text-primary fs-24"></i>
@@ -713,7 +710,7 @@
 															</a>
 														</div>
 														<div class="col-4 p-1 mt-0">
-															<a href="javascript:void(0);">
+															<a href="{{url('rating')}}">
 																<div class="text-center p-3 related-app border rounded-2">
 																	<span>
 																		<i
@@ -724,7 +721,7 @@
 															</a>
 														</div>
 														<div class="col-4 p-1 mt-0">
-															<a href="javascript:void(0);">
+															<a href="{{url('login')}}">
 																<div class="text-center p-3 related-app border rounded-2">
 																	<span>
 																		<i class="mdi mdi-logout text-warning fs-24 "></i>
@@ -784,25 +781,25 @@
 											<!-- End::header-link|dropdown-toggle -->
 											<ul class="dropdown-menu pt-0 overflow-hidden dropdown-menu-end mt-1"
 												aria-labelledby="mainHeaderProfile">
-												<li><a class="dropdown-item" href="javascript:void(0);"><i
+												<li><a class="dropdown-item" href="{{url('profile')}}"><i
 															class="ti ti-user-circle fs-18 me-2 op-7"></i>Profile</a></li>
-												<li><a class="dropdown-item" href="javascript:void(0);"><i
+												<li><a class="dropdown-item" href="{{url('index')}}"><i
 															class="ti ti-inbox fs-18 me-2 op-7"></i>Dashboard</a></li>
-												<li><a class="dropdown-item border-block-end" href="javascript:void(0);"><i
+												<li><a class="dropdown-item border-block-end" href="{{url('blog')}}"><i
 															class="ti ti-clipboard-check fs-18 me-2 op-7"></i>Posts &
 														Activities</a></li>
-												<li><a class="dropdown-item" href="javascript:void(0);"><i
+												<li><a class="dropdown-item" href="{{url('settings')}}"><i
 															class="ti ti-adjustments-horizontal fs-18 me-2 op-7"></i>Settings
 														& Privacy</a></li>
-												<li><a class="dropdown-item border-block-end" href="javascript:void(0);"><i
+												<li><a class="dropdown-item border-block-end" href="{{url('faq')}}"><i
 															class="ti ti-help fs-18 me-2 op-7"></i>Help Center</a></li>
 												<li>
 													<hr class="dropdown-divider my-0">
 												</li>
-												<li><a class="dropdown-item" href="javascript:void(0);"><i
+												<li><a class="dropdown-item" href="{{url('register')}}"><i
 															class="ti ti-user-plus fs-18 me-2 op-7"></i>Add Another
 														Account</a></li>
-												<li><a class="dropdown-item" href="javascript:void(0);"><i
+												<li><a class="dropdown-item" href="{{url('login')}}"><i
 															class="ti ti-power fs-18 me-2 op-7"></i>Sign Out</a></li>
 												<li>
 													<hr class="dropdown-divider my-0">

@@ -1,4 +1,4 @@
-        
+
         <!-- BOOTSTRAP CSS -->
         <link id="style" href="{{asset('build/assets/libs/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
 
